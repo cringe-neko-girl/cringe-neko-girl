@@ -7,8 +7,7 @@
 > - Goals: Pursuing a BS in Computer Science | Currently in collage rn...
 > - Personality: Playful, Enthusiastic
 > - Favorite Anime: Clannad T w T (Nyaaa nagaisaaaaaaaa~)
-> - Inspiration: Oliver, the creator of Poketwo
-
+> - Inspiration: Oliver, the creator of Poketwo 
 --------------------------------------------------------------------------------------------------------------------------
 
 ## Connect With Me !!!
