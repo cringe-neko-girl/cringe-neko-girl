@@ -10,10 +10,6 @@
 > - Inspiration: Oliver, the creator of Poketwo
 
 --------------------------------------------------------------------------------------------------------------------------
-## How I Feel About Coding
-<img src="https://i.pinimg.com/originals/68/ee/f9/68eef922dc17341e1fb42c41a2ace55c.gif" alt="How I Feel About Coding" style="width: 100%; height: auto;" />
-
-### When the code is done! 
 <img src="https://i.pinimg.com/originals/6a/38/26/6a3826445f169ce496fcb21603da17e5.gif" alt="Dancing Cute" style="width: 50%; height: auto;" />
 
 --------------------------------------------------------------------------------------------------------------------------
