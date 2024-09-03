@@ -11,7 +11,5 @@
 
 --------------------------------------------------------------------------------------------------------------------------
 <img src="https://i.pinimg.com/originals/6a/38/26/6a3826445f169ce496fcb21603da17e5.gif" alt="Dancing Cute" style="width: 50%; height: auto;" />
-
---------------------------------------------------------------------------------------------------------------------------
 ## Connect With Me !!!
 [![Discord](https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord)](https://discord.gg/nmrAVfva)
