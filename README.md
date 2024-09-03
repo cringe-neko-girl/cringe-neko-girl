@@ -1,4 +1,4 @@
-![Banner](https://i.pinimg.com/originals/df/28/4a/df284a3abd538a8c7fc75dd6892876e1.gif)
+<img src="https://i.pinimg.com/originals/df/28/4a/df284a3abd538a8c7fc75dd6892876e1.gif" alt="Banner" style="width: 100%; height: auto;" />
 
 # About Me
 - 🧑 **Male**
