@@ -1,7 +1,7 @@
 <img src="https://i.pinimg.com/originals/df/28/4a/df284a3abd538a8c7fc75dd6892876e1.gif" alt="Banner" style="width: 1000px; height: auto;" />
 
 # About Me
--  *Male: 18 | Gets mistaken for female...Tottally don't know why 😅** 
+-  *Male: 18 | Gets mistaken for female...Tottally don't know why 😅*
 -  *Discord Bot ~ Developer, *Coding Pokémon == Yes*
 -  *Anime Kawaii Lover => Not a otoku (too busy irl to become one nyaa~)*
 -  *College Student (BS Computer Science incoming freshman)**
