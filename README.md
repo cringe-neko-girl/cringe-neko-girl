@@ -5,30 +5,51 @@
 
  [![Discord](https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord)](https://discord.gg/nmrAVfva)
 
-```bash 
-> set nickname senko
-> set gender Male
-> echo user <@1124389055598170182>
+```powershell 
+# Set basic details
+$nickname = "Senko"
+$gender = "Male"
+
+# Display user info
+echo "User: <@1124389055598170182>"
 
 # Personality
-> set personality Playful Enthusiastic
+$personality = @{
+    "Trait1" = "Playful"
+    "Trait2" = "Enthusiastic"
+}
 
 # Interests
-> add interest Anime
-> add interest Discord
-> add interest Coding
-> set favorite_anime Clannad
+$interests = @("Anime", "Discord", "Coding")
+$favorite_anime = "Clannad"
 
 # Skills
-> add skill Discord_Bot_Development
-> add skill Python_Programming
+$skills = @("Discord Bot Development", "Python Programming")
 
 # Goals
-> set goal "Pursuing a BS in Computer Science"
-> set status "Currently in college..."
+$goal = "Pursuing a BS in Computer Science"
+$status = "Currently in college..."
 
 # Inspiration
-> set inspiration "Oliver (Creator of Poketwo)"
+$inspiration = "Oliver (Creator of Poketwo)"
+
+# Output the information
+echo "`n# Personality"
+$personality.GetEnumerator() | ForEach-Object { echo "$($_.Key): $($_.Value)" }
+
+echo "`n# Interests"
+$interests | ForEach-Object { echo "Interest: $_" }
+echo "Favorite Anime: $favorite_anime"
+
+echo "`n# Skills"
+$skills | ForEach-Object { echo "Skill: $_" }
+
+echo "`n# Goals"
+echo "Goal: $goal"
+echo "Status: $status"
+
+echo "`n# Inspiration"
+echo "Inspiration: $inspiration"
 
 ```
 
