@@ -6,50 +6,53 @@
  [![Discord](https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord)](https://discord.gg/nmrAVfva)
 
 ```powershell 
-# Set basic details
-$nickname = "Senko"
-$gender = "Male"
+function Set-UserProfile {
+    # Set basic information
+    $nickname = "Senko"
+    $gender = "Male"
+    $userID = "<@1124389055598170182>"
 
-# Display user info
-echo "User: <@1124389055598170182>"
+    # Set personality
+    $personality = @{
+        Playful = $true
+        Enthusiastic = $true
+    }
 
-# Personality
-$personality = @{
-    "Trait1" = "Playful"
-    "Trait2" = "Enthusiastic"
+    # Set interests
+    $interests = @("Anime", "Discord", "Coding")
+    $favorite_anime = "Clannad"
+
+    # Set skills
+    $skills = @("Discord Bot Development", "Python Programming")
+
+    # Set goals and status
+    $goal = "Pursuing a BS in Computer Science"
+    $status = "Currently in college..."
+
+    # Set inspiration
+    $inspiration = "Oliver (Creator of Poketwo)"
+
+    # Output the profile
+    Write-Host "Nickname: $nickname"
+    Write-Host "Gender: $gender"
+    Write-Host "User: $userID"
+    Write-Host "`n# Personality"
+    Write-Host "Playful: $($personality.Playful)"
+    Write-Host "Enthusiastic: $($personality.Enthusiastic)"
+    Write-Host "`n# Interests"
+    $interests | ForEach-Object { Write-Host "Interest: $_" }
+    Write-Host "Favorite Anime: $favorite_anime"
+    Write-Host "`n# Skills"
+    $skills | ForEach-Object { Write-Host "Skill: $_" }
+    Write-Host "`n# Goals"
+    Write-Host "Goal: $goal"
+    Write-Host "Status: $status"
+    Write-Host "`n# Inspiration"
+    Write-Host "Inspiration: $inspiration"
 }
 
-# Interests
-$interests = @("Anime", "Discord", "Coding")
-$favorite_anime = "Clannad"
-
-# Skills
-$skills = @("Discord Bot Development", "Python Programming")
-
-# Goals
-$goal = "Pursuing a BS in Computer Science"
-$status = "Currently in college..."
-
-# Inspiration
-$inspiration = "Oliver (Creator of Poketwo)"
-
-# Output the information
-echo "`n# Personality"
-$personality.GetEnumerator() | ForEach-Object { echo "$($_.Key): $($_.Value)" }
-
-echo "`n# Interests"
-$interests | ForEach-Object { echo "Interest: $_" }
-echo "Favorite Anime: $favorite_anime"
-
-echo "`n# Skills"
-$skills | ForEach-Object { echo "Skill: $_" }
-
-echo "`n# Goals"
-echo "Goal: $goal"
-echo "Status: $status"
-
-echo "`n# Inspiration"
-echo "Inspiration: $inspiration"
+# Run the function
+Set-UserProfile
 
 ```
 
