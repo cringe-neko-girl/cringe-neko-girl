@@ -1,7 +1,8 @@
-
+<img src="https://i.pinimg.com/736x/88/15/12/881512c93c784cd733f22abb335affb8.jpg" width="100%" height="auto" />
+ 
 # About Me
 
-<img src="https://ih1.redbubble.net/image.5090038845.1125/raf,360x360,075,t,fafafa:ca443f4786.u9.jpg" width="130px height=100%" align="left" />
+<img src="https://i.pinimg.com/736x/4a/ea/4e/4aea4e17a155a7175937aca24fa7cf37.jpg" width="130px height=100%" align="left" />
 
  [![Discord](https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord)](https://discord.gg/nmrAVfva)
 
